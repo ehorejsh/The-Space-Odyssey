@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Exploration</title>
+<meta name="description" content="A comprehensive factual guide to space exploration, planets, missions, and technology.">
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ===== COLOR SCHEME ===== */
+:root {
+  --primary:#1f2f46;      /* dark blue */
+  --secondary:#3a4f6b;    /* steel blue */
+  --accent:#6b7c93;       /* muted blue-gray */
+  --light:#f4f6f9;
+  --dark:#1c1c1c;
+}
+
+/* ===== RESET ===== */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Open Sans',sans-serif; line-height:1.6; color:var(--dark); background:white; scroll-behavior:smooth; }
+h2,h3,h4 { font-family:'Montserrat',sans-serif; color:var(--primary); margin-bottom:20px; }
+p { margin-bottom:15px; }
+
+/* ===== HEADER ===== */
+header { background:var(--primary); color:white; padding:15px 40px; position:sticky; top:0; z-index:100; display:flex; justify-content:space-between; align-items:center; }
+header h1 { font-size:22px; }
+nav a { color:white; text-decoration:none; margin-left:15px; font-weight:500; }
+nav a:hover { text-decoration:underline; }
+
+/* ===== HERO ===== */
+.hero { text-align:center; padding:120px 20px; background:linear-gradient(rgba(31,47,70,.85),rgba(31,47,70,.85)), url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa') center/cover no-repeat; color:white; }
+.hero a { display:inline-block; margin-top:20px; padding:14px 28px; background:white; color:var(--primary); font-weight:600; text-decoration:none; border-radius:4px; }
+
+/* ===== SECTIONS ===== */
+section { padding:80px 40px; max-width:1200px; margin:auto; }
+section h2 { font-size:32px; text-align:center; margin-bottom:40px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; }
+.card { background:white; padding:20px; border-radius:6px; box-shadow:0 8px 20px rgba(0,0,0,0.05); }
+img { max-width:100%; border-radius:6px; }
+
+/* ===== FOOTER ===== */
+footer { background:var(--primary); color:white; text-align:center; padding:25px; font-size:14px; }
+
+/* ===== TABLE STYLING ===== */
+table { width:100%; border-collapse:collapse; margin-bottom:30px; }
+table, th, td { border:1px solid var(--accent); }
+th, td { padding:10px; text-align:left; }
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px) {
+  header { flex-direction:column; }
+  nav { margin-top:10px; }
+  .hero h2 { font-size:28px; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Space Exploration</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#history">History</a>
+    <a href="#planets">Planets</a>
+    <a href="#missions">Missions</a>
+    <a href="#agencies">Agencies</a>
+    <a href="#future">Future</a>
+    <a href="#astronauts">Astronauts</a>
+    <a href="#technology">Technology</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+<h2>Discover the Final Frontier</h2>
+<p>Explore the history, technology, and future of human space exploration.</p>
+<a href="#history">Start Exploring</a>
+</section>
+
+<!-- HISTORY -->
+<section id="history">
+<h2>History of Space Travel</h2>
+<p>The space age began in 1957 when the Soviet Union launched <strong>Sputnik 1</strong>, the first artificial satellite. This marked humanity's entry into outer space.</p>
+<p>In 1961, Yuri Gagarin became the first human in space aboard <em>Vostok 1</em>. The United States followed with Alan Shepard's suborbital flight. The famous <strong>Apollo 11 mission</strong> landed the first humans on the Moon in 1969.</p>
+<p>Since then, space exploration has expanded to robotic missions, international space stations, Mars rovers, and telescopes studying distant galaxies.</p>
+</section>
+
+<!-- PLANETS -->
+<section id="planets">
+<h2>Planets of the Solar System</h2>
+<div class="grid">
+<div class="card">
+<h4>Mercury</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" alt="Mercury">
+<p>The smallest planet, closest to the Sun. It has a very thin atmosphere and extreme temperatures.</p>
+</div>
+<div class="card">
+<h4>Venus</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus">
+<p>Similar in size to Earth but with a dense, toxic atmosphere and surface temperatures over 460°C.</p>
+</div>
+<div class="card">
+<h4>Earth</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth">
+<p>Our home planet, the only one known to support life, with water and an oxygen-rich atmosphere.</p>
+</div>
+<div class="card">
+<h4>Mars</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars">
+<p>The Red Planet, subject of numerous missions to study its geology and potential for life.</p>
+</div>
+<div class="card">
+<h4>Jupiter</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Jupiter">
+<p>The largest planet, a gas giant with a massive magnetic field and dozens of moons.</p>
+</div>
+<div class="card">
+<h4>Saturn</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" alt="Saturn">
+<p>Famous for its spectacular rings, Saturn is a gas giant with numerous moons.</p>
+</div>
+<div class="card">
+<h4>Uranus</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Uranus">
+<p>An ice giant with a tilted rotational axis and faint rings. Cold and windy.</p>
+</div>
+<div class="card">
+<h4>Neptune</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptune">
+<p>An ice giant, known for strong winds and storms like the Great Dark Spot.</p>
+</div>
+</div>
+</section>
+
+<!-- MISSIONS -->
+<section id="missions">
+<h2>Famous Space Missions</h2>
+<div class="grid">
+<div class="card">
+<h4>Apollo 11</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Apollo_11_Crew.jpg" alt="Apollo 11">
+<p>The first manned Moon landing in 1969. Neil Armstrong and Buzz Aldrin walked on the lunar surface.</p>
+</div>
+<div class="card">
+<h4>Voyager 1 & 2</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Voyager_spacecraft.jpg" alt="Voyager">
+<p>Launched in 1977 to study the outer planets and now traveling beyond the solar system.</p>
+</div>
+<div class="card">
+<h4>Hubble Space Telescope</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" alt="Hubble">
+<p>Launched in 1990, Hubble has provided breathtaking images and revolutionized our understanding of the universe.</p>
+</div>
+<div class="card">
+<h4>Mars Rovers</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Mars_Rover_Curiosity.jpg" alt="Curiosity Rover">
+<p>Robotic rovers like Curiosity and Perseverance explore the surface of Mars to study geology and search for signs of life.</p>
+</div>
+</div>
+</section>
+
+<!-- AGENCIES -->
+<section id="agencies">
+<h2>Space Agencies</h2>
+<div class="grid">
+<div class="card">
+<h4>NASA</h4>
+<p>The U.S. space agency responsible for space exploration, science, and aeronautics research since 1958.</p>
+</div>
+<div class="card">
+<h4>ESA</h4>
+<p>The European Space Agency coordinates European space programs including satellites, telescopes, and missions.</p>
+</div>
+<div class="card">
+<h4>Roscosmos</h4>
+<p>The Russian space agency responsible for crewed and uncrewed space missions, including the ISS collaboration.</p>
+</div>
+<div class="card">
+<h4>CNSA</h4>
+<p>The China National Space Administration oversees China’s lunar, Mars, and crewed missions.</p>
+</div>
+</div>
+</section>
+
+<!-- FUTURE -->
+<section id="future">
+<h2>The Future of Space Exploration</h2>
+<p>Humanity aims to return to the Moon, explore Mars with crewed missions, and eventually reach beyond the solar system. Plans include lunar bases, Mars colonies, asteroid mining, and advanced telescopes to discover exoplanets.</p>
+</section>
+
+<!-- ASTRONAUTS -->
+<section id="astronauts">
+<h2>Astronaut Profiles</h2>
+<div class="grid">
+<div class="card">
+<h4>Yuri Gagarin</h4>
+<p>The first human in space (1961), representing the Soviet Union.</p>
+</div>
+<div class="card">
+<h4>Neil Armstrong</h4>
+<p>The first person to walk on the Moon during Apollo 11 (1969).</p>
+</div>
+<div class="card">
+<h4>Sally Ride</h4>
+<p>The first American woman in space (1983).</p>
+</div>
+<div class="card">
+<h4>Chris Hadfield</h4>
+<p>Canadian astronaut known for ISS missions and popularizing space through social media.</p>
+</div>
+</div>
+</section>
+
+<!-- TECHNOLOGY -->
+<section id="technology">
+<h2>Space Technology</h2>
+<p>Space exploration has driven advancements in rocketry, satellites, robotics, telescopes, materials science, and computer technology. Innovations like GPS, weather satellites, and space telescopes benefit life on Earth.</p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="grid">
+<img src="https://images.unsplash.com/photo-1581091215361-602a56741e14" alt="ISS">
+<img src="https://images.unsplash.com/photo-1517971071642-35d1635e1795" alt="Rocket Launch">
+<img src="https://images.unsplash.com/photo-1558301631-cf5cb1c6b0ed" alt="Astronaut">
+<img src="https://images.unsplash.com/photo-1470115636492-6d2b56f64c62" alt="Telescope">
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+<h2>Frequently Asked Questions</h2>
+<div class="card">
+<h4>What is space exploration?</h4>
+<p>The investigation of outer space using spacecraft, telescopes, and human missions to expand scientific knowledge.</p>
+</div>
+<div class="card">
+<h4>Which is the first planet humans have landed on?</h4>
+<p>The Moon is the first celestial body humans landed on, not a planet.</p>
+</div>
+<div class="card">
+<h4>What is the International Space Station (ISS)?</h4>
+<p>A habitable satellite orbiting Earth where astronauts conduct research in microgravity.</p>
+</div>
+<div class="card">
+<h4>Are there humans on Mars?</h4>
+<p>Not yet. Only robotic rovers are currently exploring Mars.</p>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+<p>If you have questions or want to learn more, reach out:</p>
+<p>📧 info@spaceexploration.org<br>📞 +1-555-SPACE</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Space Exploration. All Rights Reserved.
+</footer>
+
+</body>
+</html>
